@@ -13,4 +13,4 @@
 6. Eject plasma with induced aluminum barrel.
 
 Watch the Gundam cartoon for realistic examples.
--heero yuy
+-Heero Yuy
