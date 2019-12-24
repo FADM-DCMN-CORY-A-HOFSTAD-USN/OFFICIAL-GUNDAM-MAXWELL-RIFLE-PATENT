@@ -16,6 +16,12 @@ Effecient designs are devestating within 200 meters without a projectile.
 
 By inserting a steel projectile into the barrel, distances are infinite and dangerous.
 
+Ice is not good for electrical equipment. The goal is to get as cold as possible, while achieving the highest charge possible.
+
+Charge is important, because with enough charge no ice will form.
+
+"I will drain my battery to take a shot if I can save people by doing so." -Former Gundam Pilot
+
 Using magnetic projectiles is restricted by Starfleet, and several bodies. I cannot protect you from the consenquences of sending a dangerous projectile though deep space where it cannot be stopped.
 
 1-3 inches is common for handheld rifle.
