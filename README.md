@@ -14,7 +14,7 @@
 
 Effecient designs are devestating within 200 meters without a projectile. 
 
-By inserting a shell into the barrel, distances are infinite and dangerous.
+By inserting a steel projectile into the barrel, distances are infinite and dangerous.
 
 1-3 inches is common for handheld rifle.
 
