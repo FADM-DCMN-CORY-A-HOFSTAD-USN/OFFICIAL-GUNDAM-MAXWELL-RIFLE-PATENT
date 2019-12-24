@@ -16,6 +16,8 @@ Effecient designs are devestating within 200 meters without a projectile.
 
 By inserting a steel projectile into the barrel, distances are infinite and dangerous.
 
+Using magnetic projectiles is restricted and I cannot protect you from the consenquences of sending a dangerous projectile though deep space where it cannot be stopped.
+
 1-3 inches is common for handheld rifle.
 
 8-30 inches is the common barell diameter used on gundams.
