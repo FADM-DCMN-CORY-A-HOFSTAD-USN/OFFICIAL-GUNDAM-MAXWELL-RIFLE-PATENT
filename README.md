@@ -2,7 +2,7 @@
 
 1. Draw in atmosphere by induction.
 
-2. Inhibiting the free movement of atomes withing bore
+2. Inhibiting the free movement of atomes within bore
 
 3. Use UV light to tighten the rotation of electrons around molecules.
 
