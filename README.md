@@ -24,6 +24,8 @@ Charge is important, because with enough charge no ice will form.
 
 "Liquid nitrogen freezes the column and creates a ridiculus amount of presssure in the barrel. If your cannon was designed like mine you wouldn't be bothered by a little ice in your hole." -Samus
 
+"Wait until I invent a sound powered Maxwell Rifle." -Vader
+
 Using magnetic projectiles is restricted by Starfleet, and several bodies. I cannot protect you from the consenquences of sending a dangerous projectile though deep space where it cannot be stopped.
 
 1-3 inches is common for handheld rifle.
