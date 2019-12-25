@@ -1,4 +1,4 @@
-# OFFICIAL-GUNDAM-MAXWELL-RIFLE
+# OFFICIAL-GUNDAM-MAXWELL-RIFLE-PATENT
 
 1. Draw in atmosphere by induction.
 
