@@ -19,28 +19,39 @@ module main_assembly() {
     color("Gold") quantum_power_bay();
     color("Green") hex_logic_compartment();
 }
+// =========================================================================
+// LOCKHEED-MAXWELL COMPONENT REFINEMENT: SOLID-STATE INTAKE & LIGHT PATH
+// =========================================================================
 
-// 1. Pistol Grip with Integrated Bottom Air Intake
-module pistol_grip_with_intake() {
-    translate([receiver_length * 0.4, 0, -handle_height]) {
+module pistol_grip_with_ehd_intake() {
+    translate([100, 0, -110]) {
         difference() {
-            // Main angular handle structure (Lockheed Stealth Geometry)
-            linear_extrude(height = handle_height, scale = [1.2, 0.9]) {
-                polygon(points = [[0,0], [35,-10], [45,25], [10,35]]);
-            }
+            // Faceted Lockheed handle geometry
+            cube([45, 22, 110]);
             
-            // Hollow Core for Air Intake Conduit
-            translate([22, 7, -2])
-                cylinder(h = handle_height + 5, d = 14);
+            // Central EHD (Electrohydrodynamic) compression channel
+            translate([10, 3, -2])
+                cube([25, 16, 115]); // Pathway for electrostatic grids
                 
-            // Bottom Intake Vent Slits
-            for (i = [0 : 3]) {
-                translate([12 + (i*6), 7, 2])
-                    cube([3, 16, 8], center = true);
+            // Dual-sided intake vents for balanced airflow
+            for(z = [10 : 25 : 90]) {
+                translate([-5, 5, z]) cube([55, 12, 6]); // Left-to-right flow vents
             }
         }
     }
 }
+
+module uv_laser_emitter_bay() {
+    // Positioned at the very rear of the upper receiver, looking down the barrel
+    translate([-110, -10, 15]) {
+        difference() {
+            cube([40, 20, 20]); // Heavy shielding container
+            translate([2, 2, 2]) cube([36, 16, 16]); // Optics and focal lens housing
+        }
+    }
+}
+
+
 
 // 2. Quantum Power Module (Fractured Gold Lattice Array)
 module quantum_power_bay() {
