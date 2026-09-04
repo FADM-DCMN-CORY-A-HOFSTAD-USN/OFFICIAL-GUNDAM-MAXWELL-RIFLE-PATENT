@@ -1,0 +1,19 @@
+{
+  "patent_hardware_allocation": {
+    "target_asset_id": "TACTICAL_HMMWV_8120",
+    "induction_bus_interface": "PCI_EXPRESS_GEN4",
+    "sensor_sampling_frequency_hz": 1000.0,
+    "local_cache_retention_days": 60
+  },
+  "safety_clamping_envelopes": {
+    "maximum_safe_bore_temperature_kelvin": 120.0,
+    "minimum_electron_spin_tighten_ratio": 0.85,
+    "critical_gas_density_threshold": 45.0,
+    "absolute_minimum_battery_cutoff_pct": 1.0
+  },
+  "inter_agency_sync": {
+    "primary_cloud_relay": "https://univac.online",
+    "fallback_local_ip": "127.0.0.1",
+    "watchdog_cycle_interval_ms": 100
+  }
+}
