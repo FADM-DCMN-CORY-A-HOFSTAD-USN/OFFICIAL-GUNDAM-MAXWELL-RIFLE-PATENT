@@ -1,4 +1,4 @@
-FIELD MANUAL & TECHNICAL REFERENCE MANUAL: FGS-12A PLASMA RAILGUN
+FIELD MANUAL & TECHNICAL REFERENCE MANUAL: FGS-12A PLASMA CANNON
 -----------------------------------------------------------------
 
 DOCUMENT DESIGNATION: TRANS-ATMOSPHERIC FIELD MANUAL (FM) 36-8120\
@@ -13,7 +13,7 @@ SECTION 1: OPERATIONAL SYSTEM COMMAND (FOR SOLDIERS)
 1.1 SYSTEM OVERVIEW & KINETIC CAPABILITIES
 ------------------------------------------
 
-The Focused Gas System (FGS) Plasma Railgun is a direct drop-in tactical upgrade designed to replace standard mechanical M2 .50 Caliber Browning Machine Guns (BMG). The weapon uses native atmosphere as its primary ammunition, extracting ambient air, flash-freezing atomic motion via internal thermoelectric elements, and charging the condensed gas mass into a high-velocity, ionized plasma bolt using high-amplitude ultraviolet light.
+The Focused Gas System (FGS) Plasma Cannon is a direct drop-in tactical upgrade designed to replace standard mechanical M2 .50 Caliber Browning Machine Guns (BMG). The weapon uses native atmosphere as its primary ammunition, extracting ambient air, flash-freezing atomic motion via internal thermoelectric elements, and charging the condensed gas mass into a high-velocity, ionized plasma bolt using high-amplitude ultraviolet light.
 
 -   PROJECTILE-LESS ENGAGEMENT PROFILE (ANTI-SWARM MODE): Devastating area-of-effect suppression up to 200 meters. Sweeps down incoming drone swarms, visual anomalies, and unarmored targets without using physical ammunition.
 -   SOLID PAYLOAD ENGAGEMENT PROFILE (INFINITE KINETIC TRAJECTORY): By sliding a solid steel projectile into the rear breech block, the kinetic distance profile becomes mathematically continuous. *WARNING: Firing magnetic or solid steel payloads into exoatmospheric trajectories is strictly restricted under regional planetary and maritime defense conventions.*
@@ -22,7 +22,7 @@ The Focused Gas System (FGS) Plasma Railgun is a direct drop-in tactical upgrade
    [ INDUCTION INTAKE ] ──► [ PELTIER ATOMIC FREEZE ] ──► [ UV SCHELL ROTATION LOCK ]
             │                                                      │
             ▼                                                      ▼
-[ INDUCED ALUMINUM EJECTION ] ◄──► [ CAPACITOR RAIL RECOIL ] ◄──► [ PLASMA LIQUID MATRIX ]
+[ INDUCED ALUMINUM EJECTION ] ◄──► [ CAPACITOR CANNON RECOIL ] ◄──► [ PLASMA LIQUID MATRIX ]
 
 ```
 
@@ -55,7 +55,7 @@ The FGS control array utilizes a programmatic 8-layer KiCad motherboard architec
 ```
 
 -   THE COMPRESSION BORE INTERFACE: Ambient air enters via the induction intake. To ensure aerodynamic performance and eliminate parasitic pressure drag, the internal pipe joints are precision machined with matching sloped internal bevel alignments. This lets the air track cleanly through the tube without producing turbulent vortices.
--   THE CONDUCTIVE ACRYLIC MATRIX: The middle section of the straight tube consists of a custom, highly transparent conductive acrylic sleeve that covers exactly 1/3 of the barrel length. This core houses radial high-amplitude ultraviolet laser mounts that project energy straight through the tube walls to freeze molecular electron sub-shell rotation before rail ignition.
+-   THE CONDUCTIVE ACRYLIC MATRIX: The middle section of the straight tube consists of a custom, highly transparent conductive acrylic sleeve that covers exactly 1/3 of the barrel length. This core houses radial high-amplitude ultraviolet laser mounts that project energy straight through the tube walls to freeze molecular electron sub-shell rotation before cannon ignition.
 
 2.2 DIAGNOSTIC FAULT MATRIX
 ---------------------------
