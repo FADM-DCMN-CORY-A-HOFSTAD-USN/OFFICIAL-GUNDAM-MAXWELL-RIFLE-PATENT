@@ -1,0 +1,20 @@
+{
+  "pcb_fabrication_limits": {
+    "target_asset_id": "FGS_ELECTRONICS_8120",
+    "layer_count": 8,
+    "base_copper_thickness_oz": 3.0,
+    "dielectric_material": "FR4_HIGH_TG_180",
+    "trace_clearance_minimum_mm": 0.254
+  },
+  "high_power_clearance_envelopes": {
+    "max_operating_voltage_dc": 1200.0,
+    "max_transient_current_amps": 150.0,
+    "guard_ring_width_mm": 1.27,
+    "via_stitching_pitch_mm": 2.0
+  },
+  "inter_agency_sync": {
+    "primary_cloud_relay": "https://univac.online",
+    "fallback_local_ip": "127.0.0.1",
+    "watchdog_cycle_interval_ms": 100
+  }
+}
