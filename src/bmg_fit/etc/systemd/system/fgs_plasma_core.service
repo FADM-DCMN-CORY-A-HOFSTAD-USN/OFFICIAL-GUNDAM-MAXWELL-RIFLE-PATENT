@@ -1,0 +1,25 @@
+[Unit]
+Description=UNIVAC IX / FGS Plasma Railgun Core Management Engine
+After=network.target local-fs.target
+Requires=local-fs.target
+BindsTo=dev-hmmwv_ecu_bus.device dev-kdo58_weapon_link.device dev-univac_sdr_mesh.device
+After=dev-hmmwv_ecu_bus.device dev-kdo58_weapon_link.device dev-univac_sdr_mesh.device
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/crx-30-univac-bridge
+ExecStart=/usr/bin/python3 src/fgs_plasma_driver.py
+Restart=always
+RestartSec=3
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=fgs_plasma_core
+
+# Privileged Hardware Protection Limits
+Nice=-20
+CPUSchedulingPolicy=rr
+CPUSchedulingPriority=99
+
+[Install]
+WantedBy=multi-user.target
