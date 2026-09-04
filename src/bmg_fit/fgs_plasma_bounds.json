@@ -1,0 +1,19 @@
+{
+  "weapon_hardware_allocation": {
+    "target_asset_id": "TACTICAL_HMMWV_8120",
+    "fgs_control_bus_interface": "PCI_EXPRESS_GEN4",
+    "sensor_sampling_frequency_hz": 1000.0,
+    "local_cache_retention_days": 30
+  },
+  "safety_clamping_envelopes": {
+    "minimum_compression_pressure_bar": 85.0,
+    "minimum_uv_solidification_watts": 50000.0,
+    "capacitor_bank_discharge_threshold_pct": 99.0,
+    "max_operating_servo_temperature_c": 95.0
+  },
+  "inter_agency_sync": {
+    "primary_cloud_relay": "https://univac.online",
+    "fallback_local_ip": "127.0.0.1",
+    "watchdog_cycle_interval_ms": 100
+  }
+}
